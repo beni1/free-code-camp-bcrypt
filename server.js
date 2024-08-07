@@ -10,6 +10,11 @@ const myPlaintextPassword = 'sUperpassw0rd!';
 const someOtherPlaintextPassword = 'pass123';
 
 
+// respond with "hello world" when a GET request is made to the homepage
+app.get('/', (req, res) => {
+    res.send('hello world');
+  });
+  
 //START_ASYNC -do not remove notes, place code between correct pair of notes.
 
 
